@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-gavr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0048-tenant/ci10t-777-0048-app/devfile-sample-gavr@sha256:98a7473f275736907da0a246ec208678d5eb836baa93f71960228dbd44afc646
         name: my-nodejs
         ports:
         - containerPort: 3001
